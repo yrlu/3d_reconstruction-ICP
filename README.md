@@ -1,13 +1,16 @@
-## UPenn ESE 650 Learning in Robotics, Project 6: 3D Dense Localization And Mapping
+## 3D Dense Localization And Mapping based on Iterative Closest Point (ICP) 
 
-### By Max Lu
+<img src="report/vis.jpg">
 
-The main ICP implementation is in icp_all.m and some functions under "./utils".
+UPenn ESE 650 Learning in Robotics, Final Project. Implemented Iterative Closest Point (ICP) method for 3d localization and mapping from RGBD dataset.
 
-1. To re-execute the data preprocess, please place the "./depth", "./rgb" and "vicon.mat" of dataset 5 into the "./5" folder and run data_preprocess.m
-2. Run demo.m
-3. The project description is available at <https://github.com/stormmax/3DDenseLocalizationAndMapping/blob/master/report/ESE650final_proj_report_Yiren_Lu.pdf>
-4. The presentation slides is available at <https://github.com/stormmax/3DDenseLocalizationAndMapping/blob/master/report/ESE650final_project_slides.pdf>
+- Detailed project report: [report/ESE650final_proj_report_Yiren_Lu.pdf](report/ESE650final_proj_report_Yiren_Lu.pdf)
+- Presentation slides: [report/ESE650final_project_slides.pdf](report/ESE650final_project_slides.pdf)
 
+#### Code
+
+- Run `demo.m`
+- To re-execute the data preprocess pipeline, please place the `./depth`, `./rgb` and `vicon.mat` of dataset 5 into the `./5` folder and run `data_preprocess.m`
+- The main ICP implementation is in `submission/icp_all.m` and some functions under "./utils".
 
 
